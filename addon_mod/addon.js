@@ -144,16 +144,16 @@
 			},
 			onChange: function (value) {
 				if (value == '1') {
-					itemON('http://cub.watch/plugin/tmdb-proxy', 'TMDB Proxy', '@lampa', 'TMDB');
+					itemON('https://frost1k.github.io/lppl/tmdbproxy.js', 'TMDB Proxy', '@lampa', 'TMDB');
 				}
 				if (value == '2') {
-					var pluginToRemoveUrl = "http://cub.watch/plugin/tmdb-proxy";
+					var pluginToRemoveUrl = "https://frost1k.github.io/lppl/tmdbproxy.js";
 					deletePlugin(pluginToRemoveUrl);
 				}
 			},
 			onRender: function (item) {
 				$('.settings-param__name', item).css('color', 'f3d900'); hideInstall();
-				var myResult = checkPlugin('http://cub.watch/plugin/tmdb-proxy')
+				var myResult = checkPlugin('https://frost1k.github.io/lppl/tmdbproxy.js')
 				setTimeout(function () {
 					$('div[data-name="TMDB"]').append('<div class="settings-param__status one"></div>')
 					if (myResult) {

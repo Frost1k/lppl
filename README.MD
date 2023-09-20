@@ -1,6 +1,9 @@
 Основные начальные настройки
 https://frost1k.github.io/lppl/addon_mod/addon.js
 
+name: 'TMDB Proxy',
+description: 'Проксирование постеров для сайта TMDB'
+https://frost1k.github.io/lppl/tmdbproxy.js
 
 Добавляет в карточке кнопку с отзывами https://frost1k.github.io/lppl/otziv.js
 
